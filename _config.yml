@@ -1,7 +1,7 @@
 title: ADMET
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Some of ADMET datasets.
+  Some of ADMET
 baseurl: "/ADMET" # the subpath of your site, e.g. /blog
 url: "https://netknowledge.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
