@@ -10,12 +10,13 @@ order: 1
 
 Note:
 
-* All the SMILES strings are canonical. 
-* "x" column: "canonical_smiles"
+* All the SMILES strings are canonical;
+* "x" column: "canonical_smiles";
 
 
 ## Aqueous solubility
 
-| Task  | $$N$$ | y    | Dataset                                     | Preprocessing |
-|:-----:|-------|------|---------------------------------------------|----------------
-| ESOL  | 1,084 | logS | [here](/ADMET/datasets/solubility_ESOL.csv) | [here](/ADMET/datasets/solubility_esol) |
+| Task    | $$N$$  | y    | Dataset                                     | Preprocessing                           |
+|:-------:|-------:|------|---------------------------------------------|-----------------------------------------|
+| ESOL    |  1,084 | logS | [here](/ADMET/datasets/solubility_ESOL.csv) | [here](/ADMET/datasets/solubility_esol) |
+| EPA-sol | 10,093 | logS | [here](/ADMET/datasets/solubility_EPA.csv)  | [here](/ADMET/datasets/solubility_epa)  |
