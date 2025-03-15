@@ -1,6 +1,5 @@
 ---
-layout: default
-title: ESOL
+layout: page
 permalink: /datasets/solubility_esol
 ---
 
