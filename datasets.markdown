@@ -14,10 +14,16 @@ Note:
 * "x" column: "canonical_smiles";
 
 
-## Aqueous solubility
+### Aqueous solubility
 
-| Task    | $$N$$  | y    | Dataset                                            | Preprocessing                           |
-|:-------:|-------:|------|----------------------------------------------------|-----------------------------------------|
-| ESOL    |  1,084 | logS | [here](/ADMET/datasets/solubility_ESOL.csv)        | [here](/ADMET/datasets/solubility_esol) |
-| EPA-sol | 10,093 | logS | [here](/ADMET/datasets/solubility_EPA.csv)         | [here](/ADMET/datasets/solubility_epa)  |
-| AZ-sol  |  1,763 | logS | [here](/ADMET/datasets/solubility_AstraZeneca.csv) | [here](/ADMET/datasets/solubility_az)   |
+| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
+|:----------:|-------:|:----:|:--------------------------------------------------:|-------------------------------------------|
+| ESOL       |  1,084 | logS | [here](/ADMET/datasets/solubility_ESOL.csv)        | [here](/ADMET/datasets/solubility_esol)   |
+| EPA-sol    | 10,093 | logS | [here](/ADMET/datasets/solubility_EPA.csv)         | [here](/ADMET/datasets/solubility_epa)    |
+| AZ-sol     |  1,763 | logS | [here](/ADMET/datasets/solubility_AstraZeneca.csv) | [here](/ADMET/datasets/solubility_az)     |
+| Biogen-sol |  2,173 | logS | [here](/ADMET/datasets/solubility_Biogen.csv)      | [here](/ADMET/datasets/solubility_biogen) |
+
+
+### Lipophilicity
+
+
