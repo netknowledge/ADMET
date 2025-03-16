@@ -8,7 +8,7 @@ permalink: /datasets/solubility_epa
 
 # EPA-sol
 
-**Dataset**: Download it [here]().
+**Dataset**: Download it [here](/ADMET/datasets/solubility_EPA.csv).
 
 **Dataset description:** 10,093 compounds and their measured water solubilities in $$\log S$$. 
 
