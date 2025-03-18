@@ -38,7 +38,7 @@ Note:
 
 | Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
 |:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
-| 
+| CSU-Caco2 | 1,018 | | [here](/ADMET/datasets/) | [here](/ADMET/datasets/permeability_csu_caco2) |
 
 
 ### Plasma protein binding (PPB)
