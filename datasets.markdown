@@ -14,6 +14,9 @@ Note:
 * "x" column: "canonical_smiles";
 
 
+## ADME
+
+
 ### Aqueous solubility
 
 | Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
@@ -36,3 +39,46 @@ Note:
 | Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
 |:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
 | 
+
+
+### Plasma protein binding (PPB)
+
+| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
+|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
+| 
+
+
+### Liver microsomal stability
+
+| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
+|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
+| 
+
+
+### CYP450 interactions
+
+| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
+|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
+| 
+
+
+## Acute toxicity
+
+### NCATS-LD50
+
+| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
+|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
+| rat-SC     |  1,886 |      | [here](/ADMET/datasets/) | 
+| rat-IV     |  2,464 | rat_intravenous_LD50_(?log(mol/kg)) | | [here](/ADMET/datasets/) | 
+| rat-IP     |  5,001 | rat_intraperitoneal_LD50_(?log(mol/kg)) | [here](/ADMET/datasets/) | 
+| rat-oral   | 10,151 | | [here](/ADMET/datasets/) | 
+| mouse-SC   |  6,754 | mouse_subcutaneous_LD50_(?log(mol/kg))                   | [here](/ADMET/datasets/) | 
+| mouse-IV   | 16,967 | mouse_intravenous_LD50_(?log(mol/kg))                    | [here](/ADMET/datasets/) | 
+| mouse-IP   | 36,267 | mouse_intraperitoneal_LD50_(?log(mol/kg))_(?log(mol/kg)) | [here](/ADMET/datasets/) | 
+| mouse-oral | 23,350 | mouse_oral_LD50_(?log(mol/kg))                           | [here](/ADMET/datasets/) | 
+
+
+**Note**:
+
+- SC: subcutaneous; IV: intravenous; IP: intraperitoneal
+
