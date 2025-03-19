@@ -36,9 +36,9 @@ Note:
 
 ### Permeability
 
-| Task        | $$N$$ | y    | Dataset                                            | Preprocessing                             |
-|:-----------:|------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
-| CSU-Caco2   | 1,018 | | [here](/ADMET/datasets/) | [here](/ADMET/datasets/permeability_csu_caco2) |
+| Task        | $$N$$ | y       | Dataset                                            | Preprocessing                             |
+|:-----------:|------:|:-------:|:--------------------------------------------------:|:-----------------------------------------:|
+| CSU-Caco2   | 1,018 | logPapp | [here](/ADMET/datasets/) | [here](/ADMET/datasets/permeability_csu_caco2) |
 | USTL-Caco2  | 1,780 | | [here](/ADMET/datasets/) | [here](/ADMET/datasets/) |
 | Biogen-MDCK | 2,642 | | [here](/ADMET/datasets/) | [here](/ADMET/datasets/) |
 
