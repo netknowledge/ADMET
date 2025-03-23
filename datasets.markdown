@@ -36,15 +36,16 @@ Note:
 
 ### Permeability
 
-| Task        | $$N$$ | y       | Dataset                                             | Preprocessing                                   |
-|:-----------:|------:|:-------:|:---------------------------------------------------:|:-----------------------------------------------:|
-| CSU-Caco2   | 1,018 | logPapp | [here](/ADMET/datasets/permeability_CSU_Caco2.csv)  | [here](/ADMET/datasets/permeability_csu_caco2)  |
-| USTL-Caco2  | 1,780 | logPapp | [here](/ADMET/datasets/permeability_USTL_Caco2.csv) | [here](/ADMET/datasets/permeability_ustl_caco2) |
-| Biogen-MDCK | 2,642 | | [here](/ADMET/datasets/) | [here](/ADMET/datasets/) |
+| Task        | $$N$$ | y                            | Dataset                                              | Preprocessing                                    |
+|:-----------:|------:|:----------------------------:|:----------------------------------------------------:|:------------------------------------------------:|
+| CSU-Caco2   | 1,018 | logPapp                      | [here](/ADMET/datasets/permeability_CSU_Caco2.csv)   | [here](/ADMET/datasets/permeability_csu_caco2)   |
+| USTL-Caco2  | 1,780 | logPapp                      | [here](/ADMET/datasets/permeability_USTL_Caco2.csv)  | [here](/ADMET/datasets/permeability_ustl_caco2)  |
+| Biogen-MDCK | 2,642 | "LOG MDR1-MDCK ER (B-A/A-B)" | [here](/ADMET/datasets/permeability_Biogen_MDCK.csv) | [here](/ADMET/datasets/permeability_biogen_mdck) |
 
 **Note**:
 
-- Caco2
+- [Caco2]()
+- [MDCK]()
 
 
 ### Plasma protein binding (PPB)
