@@ -8,7 +8,7 @@ permalink: /datasets/permeability_csu_caco2
 
 # CSU(Central South University)-Caco2
 
-**Dataset**: Download it [here](/ADMET/datasets/). 
+**Dataset**: Download it [here](/ADMET/datasets/permeability_CSU_Caco2.csv). 
 
 **Dataset description:** A curated dataset containing 1,018 compounds and their experimental $$\log P_{\text{app}}$$ values ($$\log$$ of apparent permeability coefficient). 
 
