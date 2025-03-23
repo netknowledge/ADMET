@@ -50,9 +50,11 @@ Note:
 
 ### Plasma protein binding (PPB)
 
-| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
-|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
-| 
+| Task        | $$N$$ | y                                                | Dataset                                           | Preprocessing                            |
+|:-----------:|------:|:------------------------------------------------:|:-------------------------------------------------:|:----------------------------------------:|
+| Biogen-rPPB | 168   | "LOG PLASMA PROTEIN BINDING (RAT) (% unbound)"   | [here](/ADMET/datasets/PPB_rat_Biogen.csv)        | [here](/ADMET/datasets/ppb_rat_biogen)   |
+| Biogen-hPPB | 194   | "LOG PLASMA PROTEIN BINDING (HUMAN) (% unbound)" | [here](/ADMET/datasets/PPB_human_Biogen.csv)      | [here](/ADMET/datasets/ppb_human_biogen) |
+| AZ-hPPB     | 1,614 | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_human_AstraZeneca.csv) | [here](/ADMET/datasets/ppb_human_az)     |
 
 
 ### Liver microsomal stability
