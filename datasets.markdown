@@ -67,9 +67,22 @@ Note:
 
 ### CYP450 interactions
 
-| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
-|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
-| 
+| Task                  | $$N$$ | y             | Dataset                                            | Preprocessing                             |
+|:----------------------|------:|:-------------:|:--------------------------------------------------:|:-----------------------------------------:|
+| CYP1A2_[CHEMBL1741322](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1741322)  | 9,600 | pchembl_value | [here](/ADMET/datasets/CYP1A2_CHEMBL1741322.csv)  |
+| CYP2C9_CHEMBL1614027  | 2,898 | pchembl_value | [here](/ADMET/datasets/CYP2C9_CHEMBL1614027.csv)  |
+| CYP2C9_CHEMBL1741325  | 7,220 | pchembl_value | [here](/ADMET/datasets/CYP2C9_CHEMBL1741325.csv)  |
+| CYP2C19_CHEMBL1613777 | 3,518 | pchembl_value | [here](/ADMET/datasets/CYP2C19_CHEMBL1613777.csv) |
+| CYP2C19_CHEMBL1741323 | 8,850 | pchembl_value | [here](/ADMET/datasets/CYP2C19_CHEMBL1741323.csv) |
+| CYP2D6_CHEMBL1614110  | 3,343 | pchembl_value | [here](/ADMET/datasets/CYP2D6_CHEMBL1614110.csv)  |
+| CYP2D6_CHEMBL1741321  | 5,461 | pchembl_value | [here](/ADMET/datasets/CYP2D6_CHEMBL1741321.csv)  |
+| CYP3A4_CHEMBL1613886  | 6,471 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1613886.csv)  |
+| CYP3A4_CHEMBL1614108  | 6,471 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1614108.csv)  |
+| CYP3A4_CHEMBL1741324  | 8,628 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1741324.csv)  |
+
+**Note**:
+
+- [What is pCHEMBL?](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions#what-is-pchembl)
 
 
 ## Acute toxicity
