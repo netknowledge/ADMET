@@ -59,9 +59,10 @@ Note:
 
 ### Liver microsomal stability
 
-| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
-|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
-| 
+| Task       | $$N$$ | y                           | Dataset                                          | Preprocessing                                |
+|:----------:|------:|:---------------------------:|:------------------------------------------------:|:--------------------------------------------:|
+| Biogen-RLM | 3,054 | "LOG RLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/stability_Biogen_RLM.csv) | [here](/ADMET/datasets/stability_biogen_rlm) |
+| Biogen-HLM | 3,087 | "LOG HLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/stability_Biogen_HLM.csv) | [here](/ADMET/datasets/stability_biogen_hlm) |
 
 
 ### CYP450 interactions
