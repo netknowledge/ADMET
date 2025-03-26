@@ -67,21 +67,22 @@ Note:
 
 ### CYP450 interactions
 
-| Task                  | $$N$$ | y             | Dataset                                            | Preprocessing                             |
-|:----------------------|------:|:-------------:|:--------------------------------------------------:|:-----------------------------------------:|
+| Task                                                                              | $$N$$ | y             | Dataset                                           |
+|:----------------------------------------------------------------------------------|------:|:-------------:|:-------------------------------------------------:|
 | CYP1A2_[CHEMBL1741322](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1741322)  | 9,600 | pchembl_value | [here](/ADMET/datasets/CYP1A2_CHEMBL1741322.csv)  |
-| CYP2C9_CHEMBL1614027  | 2,898 | pchembl_value | [here](/ADMET/datasets/CYP2C9_CHEMBL1614027.csv)  |
-| CYP2C9_CHEMBL1741325  | 7,220 | pchembl_value | [here](/ADMET/datasets/CYP2C9_CHEMBL1741325.csv)  |
-| CYP2C19_CHEMBL1613777 | 3,518 | pchembl_value | [here](/ADMET/datasets/CYP2C19_CHEMBL1613777.csv) |
-| CYP2C19_CHEMBL1741323 | 8,850 | pchembl_value | [here](/ADMET/datasets/CYP2C19_CHEMBL1741323.csv) |
-| CYP2D6_CHEMBL1614110  | 3,343 | pchembl_value | [here](/ADMET/datasets/CYP2D6_CHEMBL1614110.csv)  |
-| CYP2D6_CHEMBL1741321  | 5,461 | pchembl_value | [here](/ADMET/datasets/CYP2D6_CHEMBL1741321.csv)  |
-| CYP3A4_CHEMBL1613886  | 6,471 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1613886.csv)  |
-| CYP3A4_CHEMBL1614108  | 6,471 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1614108.csv)  |
-| CYP3A4_CHEMBL1741324  | 8,628 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1741324.csv)  |
+| CYP2C9_[CHEMBL1614027](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1614027)  | 2,898 | pchembl_value | [here](/ADMET/datasets/CYP2C9_CHEMBL1614027.csv)  |
+| CYP2C9_[CHEMBL1741325](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1741325)  | 7,220 | pchembl_value | [here](/ADMET/datasets/CYP2C9_CHEMBL1741325.csv)  |
+| CYP2C19_[CHEMBL1613777](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1613777) | 3,518 | pchembl_value | [here](/ADMET/datasets/CYP2C19_CHEMBL1613777.csv) |
+| CYP2C19_[CHEMBL1741323](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1741323) | 8,850 | pchembl_value | [here](/ADMET/datasets/CYP2C19_CHEMBL1741323.csv) |
+| CYP2D6_[CHEMBL1614110](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1614110)  | 3,343 | pchembl_value | [here](/ADMET/datasets/CYP2D6_CHEMBL1614110.csv)  |
+| CYP2D6_[CHEMBL1741321](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1741321)  | 5,461 | pchembl_value | [here](/ADMET/datasets/CYP2D6_CHEMBL1741321.csv)  |
+| CYP3A4_[CHEMBL1613886](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1613886)  | 6,471 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1613886.csv)  |
+| CYP3A4_[CHEMBL1614108](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1614108)  | 6,471 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1614108.csv)  |
+| CYP3A4_[CHEMBL1741324](https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1741324)  | 8,628 | pchembl_value | [here](/ADMET/datasets/CYP3A4_CHEMBL1741324.csv)  |
 
 **Note**:
 
+- See [here](/ADMET/datasets/chembl_cyp450) for the data extraction steps;
 - [What is pCHEMBL?](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions#what-is-pchembl)
 
 
