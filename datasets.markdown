@@ -90,19 +90,20 @@ Note:
 
 ### NCATS-LD50
 
-| Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
-|:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
-| rat-SC     |  1,886 |      | [here](/ADMET/datasets/) | 
-| rat-IV     |  2,464 | rat_intravenous_LD50_(?log(mol/kg)) | | [here](/ADMET/datasets/) | 
-| rat-IP     |  5,001 | rat_intraperitoneal_LD50_(?log(mol/kg)) | [here](/ADMET/datasets/) | 
-| rat-oral   | 10,151 | | [here](/ADMET/datasets/) | 
-| mouse-SC   |  6,754 | mouse_subcutaneous_LD50_(?log(mol/kg))                   | [here](/ADMET/datasets/) | 
-| mouse-IV   | 16,967 | mouse_intravenous_LD50_(?log(mol/kg))                    | [here](/ADMET/datasets/) | 
-| mouse-IP   | 36,267 | mouse_intraperitoneal_LD50_(?log(mol/kg))_(?log(mol/kg)) | [here](/ADMET/datasets/) | 
-| mouse-oral | 23,350 | mouse_oral_LD50_(?log(mol/kg))                           | [here](/ADMET/datasets/) | 
+| Task       | $$N$$  | y                                          | Dataset                                            |
+|:----------:|-------:|:-------------------------------------------|:--------------------------------------------------:|
+| rat-SC     |  1,886 | "rat_subcutaneous_LD50_(?log(mol/kg))"     | [here](/ADMET/datasets/toxicity_NCATS_LD50_rat_subcutaneous.csv) |
+| rat-IV     |  2,464 | "rat_intravenous_LD50_(?log(mol/kg))"      | [here](/ADMET/datasets/toxicity_NCATS_LD50_rat_intravenous.csv) |
+| rat-IP     |  5,001 | "rat_intraperitoneal_LD50_(?log(mol/kg))"  | [here](/ADMET/datasets/toxicity_NCATS_LD50_rat_intraperitoneal.csv) |
+| rat-oral   | 10,151 | "rat_oral_LD50_(?log(mol/kg))"             | [here](/ADMET/datasets/toxicity_NCATS_LD50_rat_oral.csv) |
+| mouse-SC   |  6,754 | "mouse_subcutaneous_LD50_(?log(mol/kg))"                   | [here](/ADMET/datasets/toxicity_NCATS_LD50_mouse_subcutaneous.csv)    |
+| mouse-IV   | 16,967 | "mouse_intravenous_LD50_(?log(mol/kg))"                    | [here](/ADMET/datasets/toxicity_NCATS_LD50_mouse_intravenous.csv)     |
+| mouse-IP   | 36,267 | "mouse_intraperitoneal_LD50_(?log(mol/kg))\_(?log(mol/kg))" | [here](/ADMET/datasets/toxicity_NCATS_LD50_mouse_intraperitoneal.csv) |
+| mouse-oral | 23,350 | "mouse_oral_LD50_(?log(mol/kg))"                           | [here](/ADMET/datasets/toxicity_NCATS_LD50_mouse_oral.csv)            |
 
 
 **Note**:
 
+- See [here](/ADMET/datasets/toxicity_ncats_ld50) for the data extraction steps;
 - SC: subcutaneous; IV: intravenous; IP: intraperitoneal
-
+- LD50: [median lethal dose](https://en.wikipedia.org/wiki/Median_lethal_dose)
