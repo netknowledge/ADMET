@@ -30,23 +30,26 @@ order: 1
 
 ### Lipophilicity
 
-| Task    | $$N$$ | y       | Dataset                                               | Preprocessing                            |
-|:-------:|------:|:-------:|:-----------------------------------------------------:|:----------------------------------------:|
-| AZ-lipo | 4,195 | logD7.4 | [here](/ADMET/datasets/lipophilicity_AstraZeneca.csv) | [here](/ADMET/datasets/lipophilicity_az) |
+| Task    | $$N$$ | y       | Dataset                                           | Preprocessing                            |
+|:-------:|------:|:-------:|:-------------------------------------------------:|:----------------------------------------:|
+| AZ-lipo | 4,195 | logD7.4 | [here](/ADMET/datasets/lipophilicity_AZ-lipo.csv) | [here](/ADMET/datasets/lipophilicity_az) |
 
 
 ### Permeability
 
 | Task        | $$N$$ | y                            | Dataset                                              | Preprocessing                                    |
 |:-----------:|------:|:----------------------------:|:----------------------------------------------------:|:------------------------------------------------:|
-| CSU-Caco2   | 1,018 | logPapp                      | [here](/ADMET/datasets/permeability_CSU_Caco2.csv)   | [here](/ADMET/datasets/permeability_csu_caco2)   |
-| USTL-Caco2  | 1,780 | logPapp                      | [here](/ADMET/datasets/permeability_USTL_Caco2.csv)  | [here](/ADMET/datasets/permeability_ustl_caco2)  |
-| Biogen-MDCK | 2,642 | "LOG MDR1-MDCK ER (B-A/A-B)" | [here](/ADMET/datasets/permeability_Biogen_MDCK.csv) | [here](/ADMET/datasets/permeability_biogen_mdck) |
+| CSU-Caco2   | 1,018 | logPapp                      | [here](/ADMET/datasets/permeability_CSU-Caco2.csv)   | [here](/ADMET/datasets/permeability_csu_caco2)   |
+| USTL-Caco2  | 1,780 | logPapp                      | [here](/ADMET/datasets/permeability_USTL-Caco2.csv)  | [here](/ADMET/datasets/permeability_ustl_caco2)  |
+| Biogen-MDCK | 2,642 | "LOG MDR1-MDCK ER (B-A/A-B)" | [here](/ADMET/datasets/permeability_Biogen-MDCK.csv) | [here](/ADMET/datasets/permeability_biogen_mdck) |
+| NCATS-PAMPA-pH7.4 | 2,033 | low_moderate_permeability | [here](/ADMET/datasets/permeability_NCATS-PAMPA-pH7.4.csv) |
+| NCATS-PAMPA-pH5   | 486   | low_permeability          | [here](/ADMET/datasets/permeability_NCATS-PAMPA-pH5.csv)   |
 
 **Note**:
 
 - [Caco2]()
 - [MDCK]()
+- [PAMPA]()
 
 
 ### Plasma protein binding (PPB)
