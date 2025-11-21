@@ -56,9 +56,12 @@ order: 1
 
 | Task        | $$N$$ | y                                                | Dataset                                           | Preprocessing                            |
 |:-----------:|------:|:------------------------------------------------:|:-------------------------------------------------:|:----------------------------------------:|
-| Biogen-rPPB | 168   | "LOG PLASMA PROTEIN BINDING (RAT) (% unbound)"   | [here](/ADMET/datasets/PPB_rat_Biogen.csv)        | [here](/ADMET/datasets/ppb_rat_biogen)   |
-| Biogen-hPPB | 194   | "LOG PLASMA PROTEIN BINDING (HUMAN) (% unbound)" | [here](/ADMET/datasets/PPB_human_Biogen.csv)      | [here](/ADMET/datasets/ppb_human_biogen) |
-| AZ-hPPB     | 1,614 | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_human_AstraZeneca.csv) | [here](/ADMET/datasets/ppb_human_az)     |
+| AZ-rPPB     | 717   | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-rPPB.csv)        |
+| Biogen-rPPB | 168   | "LOG PLASMA PROTEIN BINDING (RAT) (% unbound)"   | [here](/ADMET/datasets/PPB_Biogen-rPPB.csv)        | [here](/ADMET/datasets/ppb_rat_biogen)   |
+| AZ-dPPB     | 244   | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-dPPB.csv)        |
+| AZ-mPPB     | 162   | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-mPPB.csv)        |
+| AZ-hPPB     | 1,614 | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-hPPB.csv) | [here](/ADMET/datasets/ppb_human_az)     |
+| Biogen-hPPB | 194   | "LOG PLASMA PROTEIN BINDING (HUMAN) (% unbound)" | [here](/ADMET/datasets/PPB_Biogen-hPPB.csv)      | [here](/ADMET/datasets/ppb_human_biogen) |
 
 
 ### Liver microsomal stability
