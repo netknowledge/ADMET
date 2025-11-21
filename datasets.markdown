@@ -22,14 +22,10 @@ order: 1
 | Task       | $$N$$  | y    | Dataset                                            | Preprocessing                             |
 |:----------:|-------:|:----:|:--------------------------------------------------:|:-----------------------------------------:|
 | ESOL       |  1,084 | logS | [here](/ADMET/datasets/solubility_ESOL.csv)        | [here](/ADMET/datasets/solubility_esol)   |
-| EPA-sol    | 10,093 | logS | [here](/ADMET/datasets/solubility_EPA.csv)         | [here](/ADMET/datasets/solubility_epa)    |
-| AZ-sol     |  1,763 | logS | [here](/ADMET/datasets/solubility_AstraZeneca.csv) | [here](/ADMET/datasets/solubility_az)     |
-| Biogen-sol |  2,173 | logS | [here](/ADMET/datasets/solubility_Biogen.csv)      | [here](/ADMET/datasets/solubility_biogen) |
-
-
-| Task       | $$N$$  | y              | Dataset                                            | Preprocessing                             |
-|:----------:|-------:|:--------------:|:--------------------------------------------------:|:-----------------------------------------:|
-| NCATS-sol  |        | low_solubility | [here](/ADMET/datasets/solubility_Biogen.csv)      | [here](/ADMET/datasets/solubility_ncats) |
+| EPA-sol    | 10,093 | logS | [here](/ADMET/datasets/solubility_EPA-sol.csv)     | [here](/ADMET/datasets/solubility_epa)    |
+| AZ-sol     |  1,763 | logS | [here](/ADMET/datasets/solubility_AZ-sol.csv)      | [here](/ADMET/datasets/solubility_az)     |
+| Biogen-sol |  2,173 | logS | [here](/ADMET/datasets/solubility_Biogen-sol.csv)  | [here](/ADMET/datasets/solubility_biogen) |
+| NCATS-sol  |  2,453 | low_solubility | [here](/ADMET/datasets/solubility_NCATS-sol.csv) | [here](/ADMET/datasets/solubility_ncats) |
 
 
 ### Lipophilicity
