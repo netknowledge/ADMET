@@ -54,21 +54,31 @@ order: 1
 
 ### Plasma protein binding (PPB)
 
-| Task        | $$N$$ | y                                                | Dataset                                           | Preprocessing                            |
-|:-----------:|------:|:------------------------------------------------:|:-------------------------------------------------:|:----------------------------------------:|
+| Task        | $$N$$ | y                                                | Dataset                                        | Preprocessing                            |
+|:-----------:|------:|:------------------------------------------------:|:----------------------------------------------:|:----------------------------------------:|
 | AZ-rPPB     | 717   | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-rPPB.csv)        |
-| Biogen-rPPB | 168   | "LOG PLASMA PROTEIN BINDING (RAT) (% unbound)"   | [here](/ADMET/datasets/PPB_Biogen-rPPB.csv)        | [here](/ADMET/datasets/ppb_rat_biogen)   |
+| Biogen-rPPB | 168   | "LOG PLASMA PROTEIN BINDING (RAT) (% unbound)"   | [here](/ADMET/datasets/PPB_Biogen-rPPB.csv)    | [here](/ADMET/datasets/ppb_rat_biogen)   |
 | AZ-dPPB     | 244   | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-dPPB.csv)        |
 | AZ-mPPB     | 162   | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-mPPB.csv)        |
-| AZ-hPPB     | 1,614 | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-hPPB.csv) | [here](/ADMET/datasets/ppb_human_az)     |
-| Biogen-hPPB | 194   | "LOG PLASMA PROTEIN BINDING (HUMAN) (% unbound)" | [here](/ADMET/datasets/PPB_Biogen-hPPB.csv)      | [here](/ADMET/datasets/ppb_human_biogen) |
+| AZ-hPPB     | 1,614 | log_pct_unbound                                  | [here](/ADMET/datasets/PPB_AZ-hPPB.csv)        | [here](/ADMET/datasets/ppb_human_az)     |
+| Biogen-hPPB | 194   | "LOG PLASMA PROTEIN BINDING (HUMAN) (% unbound)" | [here](/ADMET/datasets/PPB_Biogen-hPPB.csv)    | [here](/ADMET/datasets/ppb_human_biogen) |
+
+
+### Hepatocyte stability
+
+| Task      | $$N$$ | y                                   | Dataset                                        | Preprocessing                            |
+|:---------:|------:|:-----------------------------------:|:----------------------------------------------:|:----------------------------------------:|
+| AZ-rH     | 837   | "LOG RH_CLint (uL/min/1E6 cells)"   | [here](/ADMET/datasets/hepatocyte_AZ-rH.csv)   |
+| AZ-hH     | 407   | "LOG HH_CLint (uL/min/1E6 cells)"   | [here](/ADMET/datasets/hepatocyte_AZ-hH.csv)   |    |
 
 
 ### Liver microsomal stability
 
-| Task       | $$N$$ | y                           | Dataset                                          | Preprocessing                                |
-|:----------:|------:|:---------------------------:|:------------------------------------------------:|:--------------------------------------------:|
-| Biogen-RLM | 3,054 | "LOG RLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/stability_Biogen_RLM.csv) | [here](/ADMET/datasets/stability_biogen_rlm) |
+| Task       | $$N$$ | y                           | Dataset                                           | Preprocessing                                |
+|:----------:|------:|:---------------------------:|:-------------------------------------------------:|:--------------------------------------------:|
+| NCATS-rLM  | 2,528 | unstable                    | [here](/ADMET/datasets/microsomal_NCATS-rLM.csv)  | 
+| Biogen-rLM | 3,054 | "LOG RLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/microsomal_Biogen-rLM.csv) | [here](/ADMET/datasets/stability_biogen_rlm) |
+| AZ-hLM     | 
 | Biogen-HLM | 3,087 | "LOG HLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/stability_Biogen_HLM.csv) | [here](/ADMET/datasets/stability_biogen_hlm) |
 
 
