@@ -78,8 +78,8 @@ order: 1
 |:----------:|------:|:---------------------------:|:-------------------------------------------------:|:--------------------------------------------:|
 | NCATS-rLM  | 2,528 | unstable                    | [here](/ADMET/datasets/microsomal_NCATS-rLM.csv)  | 
 | Biogen-rLM | 3,054 | "LOG RLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/microsomal_Biogen-rLM.csv) | [here](/ADMET/datasets/stability_biogen_rlm) |
-| AZ-hLM     | 
-| Biogen-HLM | 3,087 | "LOG HLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/stability_Biogen_HLM.csv) | [here](/ADMET/datasets/stability_biogen_hlm) |
+| AZ-hLM     | 1,102 | "LOG HLM_CLint (mL/min/g)"  | [here](/ADMET/datasets/microsomal_AZ-hLM.csv)     |
+| Biogen-HLM | 3,087 | "LOG HLM_CLint (mL/min/kg)" | [here](/ADMET/datasets/microsomal_Biogen-hLM.csv) | [here](/ADMET/datasets/stability_biogen_hlm) |
 
 
 ### CYP450 interactions
